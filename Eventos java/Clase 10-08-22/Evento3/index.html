@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="./style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>onchange</title>
+</head>
+<body>
+
+    <p>Seleccione un coche de la lista.</p>
+
+<select id="Lista" onchange="Funcion()">
+  <option value="Audi">Audi</option>
+  <option value="BMW">BMW</option>
+  <option value="Mercedes">Mercedes</option>
+  <option value="Volvo">Volvo</option>
+</select>
+
+<p>Cuando selecciones un automóvil, se activa una función que genera el valor del automóvil seleccionado.</p>
+
+<p id="demo"></p>
+
+    <script src="./script.js"></script>
+</body>
+</html>
